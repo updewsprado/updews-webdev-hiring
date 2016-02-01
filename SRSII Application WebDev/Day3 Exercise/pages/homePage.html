@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Volcanology Home</title>
+<link rel="stylesheet" type="type/css" href="../css/vulcanMyStyle.css">
+<script src="../plugins/jquery-2.1.4.js"></script>
+<script src="../js/myScript.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="titleHeader">
+			<h1 align="center">Welcome to Volcanology Web Site</h1>
+		</div>
+		
+		<div class="sideBar">
+			<a href="">Side Bar &nbsp;</a>
+			<p>&nbsp;</p>
+		</div>
+		
+		<br/>
+		
+		<div class="mainContent">
+			<div style="text-align: center">
+				<img alt="Volcanology SetUp Image" src="../img/volcanologySetUpImg.jpg" align="middle">
+			</div>
+			<br/>
+			<p>
+				<b>Volcanology</b> (also spelled vulcanology) is the study of volcanoes, lava, magma, and related geological,
+				geophysical and geochemical phenomena. The term volcanology is derived from the Latin word vulcan.
+				Vulcan was the ancient Roman god of fire.
+				A <b>volcanologist</b> is a geologist who studies the eruptive activity and formation of volcanoes, and
+				their current and historic eruptions. Volcanologists frequently visit volcanoes, especially active ones,
+				to observe volcanic eruptions, collect eruptive products including tephra (such as ash or pumice), rock and lava samples.
+				One major focus of enquiry is the prediction of eruptions; there is currently no accurate way to do this,
+				but predicting eruptions, like predicting earthquakes, could save many lives.
+			</p>
+			<div id="dropdownVulcan">
+				<span>Please select an active volcano below:</span>
+				<br/>
+				<select id="selectVolcano">
+					<option id="vulcan1" value="babuyanClaroVulcan">Babuyan Claro</option>
+					<option id="vulcan2" value="cabalianVulcan">Cabalian</option>
+					<option id="vulcan3" value="hibokHibokVulcan">Hibok-Hibok</option>
+					<option id="vulcan4" value="mayonVulcan">Mayon</option>
+					<option id="vulcan5" value="taalVulcan">Taal</option>
+				</select>
+			</div>
+				
+			<br/>
+			<br/>
+			<br/>
+			<div id="subscribeForm">
+				<h4>Please enter your info below to subscribe:</h4>
+				<form>
+					<table>
+						<tr>
+							<td>
+								Full Name:
+							</td>
+							<td>
+								<input type="text" placeholder="First Name, Middle Name, Last Name" size="30" id="fullName">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Email:
+							</td>
+							<td>
+								<input type="text" placeholder="sample@email.com" size="25" id="email">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Age:
+							</td>
+							<td>
+								<input type="text" maxlength="2" size="4" id="age">
+							</td>
+						</tr>
+					</table>
+					<input type="submit" value="Submit" id="submitButton">
+				</form>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>
