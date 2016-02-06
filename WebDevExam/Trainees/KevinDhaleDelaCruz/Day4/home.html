@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Home</title>
+	
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="myscript.js"></script>
+
+</head>
+
+<body>
+
+<div id="header">
+	<h1 align="center">Home</h1>
+</div>
+
+<div class="container">
+
+	<div id="sidebar">
+		<div align="center" id="dropdown">
+			<select onchange="loadPage(this.value)">
+			  <option disabled selected>Where to?</option>
+			  <option value="home.html">Home</option>
+			  <option value="about.html">About</option>
+			  <option value="findus.html">Find</option>
+			  <option value="index.html">Index</option>
+			</select>
+		</div>
+	</div>
+
+	<div id="content">
+		<h1 style="font-size: 40px; color: yellow;">Quote of the Day</h1>
+		<p id="quote" style="font-size: 36px"></p>
+		
+		<div class="buttonholder">
+			<button name="randomquote" onclick="randomQuote()">Click me!</button>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
