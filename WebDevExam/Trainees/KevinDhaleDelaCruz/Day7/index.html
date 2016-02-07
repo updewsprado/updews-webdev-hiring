@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Simple Web Page</title>
+	
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="myscript.js"></script>
+
+</head>
+
+<body>
+
+<div id="header">
+	<h1 align="center">Simple Web Page</h1>
+</div>
+
+<div class="container">
+
+	<div id="sidebar">
+		<div align="center">
+			<p>Sidebar</p>
+		</div>
+	</div>
+
+	<div id="content">
+		<p>Check if User "trainee" exists:</p>
+		<div class="form">
+			<form method="POST" action="createUser.php" name="info" enctype="multipart/form-data">
+			  <input type="submit" name="submit" value="User">
+			</form>
+		</div>
+		
+		<p>Check if Database "updews_training" exists:</p>
+		<div class="form">
+			<form method="POST" action="createDatabase.php" name="info" enctype="multipart/form-data">
+			  <input type="submit" name="submit" value="Database">
+			</form>
+		</div>
+
+		<p>Check if Table "accel" exists:</p>
+		<div class="form">
+			<form method="POST" action="createTable.php" name="info" enctype="multipart/form-data">
+			  <input type="submit" name="submit" value="Table">
+			</form>
+		</div>
+
+	</div>
+</div>
+	
+
+</body>
+</html>
