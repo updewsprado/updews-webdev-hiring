@@ -27,21 +27,28 @@
 		<p>Check if User "trainee" exists:</p>
 		<div class="form">
 			<form method="POST" action="createUser.php" name="info" enctype="multipart/form-data">
-			  <input type="submit" name="submit" value="User">
+			  <input type="submit" name="submit" value="Check User">
 			</form>
 		</div>
 		
 		<p>Check if Database "updews_training" exists:</p>
 		<div class="form">
 			<form method="POST" action="createDatabase.php" name="info" enctype="multipart/form-data">
-			  <input type="submit" name="submit" value="Database">
+			  <input type="submit" name="submit" value="Check Database">
 			</form>
 		</div>
 
 		<p>Check if Table "accel" exists:</p>
 		<div class="form">
 			<form method="POST" action="createTable.php" name="info" enctype="multipart/form-data">
-			  <input type="submit" name="submit" value="Table">
+			  <input type="submit" name="submit" value="Check Table">
+			</form>
+		</div>
+
+		<p>Check if Table "accel" is already populated with values from "gamb.csv":</p>
+		<div class="form">
+			<form method="POST" action="csvtosql.php" name="info" enctype="multipart/form-data">
+			  <input type="submit" name="submit" value="Check Values">
 			</form>
 		</div>
 
