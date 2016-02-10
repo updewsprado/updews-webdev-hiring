@@ -46,6 +46,7 @@ $stmt->execute();
 	<div id="content">
 		<div id="tableDiv">
 			<table id="myTable" align="center">
+				<thead>
 					<tr>
 						<th>Timestamp</th>
 						<th>Node</th>
@@ -55,6 +56,8 @@ $stmt->execute();
 						<th>M-Val</th>
 						<th>Purged</th>
 					</tr>
+				</thead>
+				<tbody>
 					<?php
 					foreach( $stmt as $row )
 					{
@@ -69,7 +72,7 @@ $stmt->execute();
 					    echo "</tr>";
 					}
 					?>
-					</tr>
+				</tbody>
 			</table>
 			<script>
 				jQuery('#myTable').ddTableFilter();
