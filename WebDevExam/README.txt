@@ -1,9 +1,9 @@
 Good Day Web Development Trainees!
 
 From now on, submissions for this training will be
-centered upon the usage of SVN to manage our codes.
+centered upon the usage of Git to manage our codes.
 
-Be sure to master the basics of SVN in order to be
+Be sure to master the basics of Git in order to be
 able to work better in a collaborative coding
 environment.
 
