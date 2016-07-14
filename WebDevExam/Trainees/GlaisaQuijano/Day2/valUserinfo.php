@@ -11,10 +11,10 @@
         
 // check if name is already existing in the database        
         if ($output->num_rows >0) {
-            header("location:day2.php?name=exist");               
+            header("location:home.php?name=exist");               
         } else  {  
             $sql = "INSERT INTO tbluserinfo (firstname, lastname, email, age) VALUES ('$fname','$lname','$email',$age)";
             mysqli_query($conn, $sql); 
-            header("location:day2.php?name=added");    
+            header("location:home.php?name=added");    
         } 
         ?>
