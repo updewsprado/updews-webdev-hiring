@@ -1,0 +1,77 @@
+body {
+    background-image: url("image/bg-image.jpg");
+}
+p{
+    text-align: justify;
+    margin: 30px;
+}
+ h1 {
+    margin-left: 30px; 
+ }
+ a {
+    display: block;
+    margin-left: 0px;
+    color: black;
+    
+ }
+ .header {
+    background-color: whitesmoke;
+    padding: 1px;
+    color: blue;
+    text-align: left;
+    position: relative;
+ }
+ .dropdown {
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding: 0px;
+    margin-right: 20px;
+    background-color: lightgray;
+}
+.btnDropdown {
+    position: relative;
+    min-width: 100px;
+}
+.dropdown-list {
+    display: none;
+    position: static;
+    min-width: 100px;
+    background-color: lightgray;
+ }
+.dropdown:hover .dropdown-list{
+    display: inline;
+}
+.dropdown-list a:hover {
+    background-color: blue;
+    color: white;
+}
+.frmUserinfo { 
+    text-align: center;
+}
+.frmUserinfo label {
+    min-width: 100px;
+    display: inline-block;
+}
+root { 
+    display: block;
+}
+
+/* 3rd */
+.left-sidebar {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid activecaption;
+    position: static;
+    margin: 0px;
+}
+
+.web-content {
+    width: 80%;
+    height: 100%;
+    float: right;
+    border: 1px solid activecaption;
+    position: static;
+    margin-left: -4px;
+}
