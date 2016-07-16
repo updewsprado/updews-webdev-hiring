@@ -1,0 +1,89 @@
+body {
+    background-image: url("image/bg-image.jpg");
+}
+p{
+    text-align: justify;
+}
+ h1 {
+    margin-left: 30px; 
+ }
+ a {
+    display: block;
+    margin-left: 0px;
+    color: black; 
+ }
+ .header {
+    background-color: whitesmoke;
+    padding: 1px;
+    color: blue;
+    text-align: left;
+    position: relative;
+ }
+ .dropdown {
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding: 0px;
+    margin-right: 20px;
+    background-color: lightgray;
+}
+.btnDropdown {
+    position: relative;
+    min-width: 100px;
+}
+.dropdown-list {
+    display: none;
+    position: static;
+    min-width: 100px;
+    background-color: lightgray;
+ }
+.dropdown:hover .dropdown-list{
+    display: inline;
+}
+.dropdown-list a:hover {
+    background-color: blue;
+    color: white;
+}
+.frmUserinfo { 
+    text-align: left;
+    position: relative;
+    margin: 50px auto 0px 50px;
+}
+.frmUserinfo label {
+    min-width: 150px;
+    display: inline-block;
+}
+root { 
+    display: block;
+}
+
+/* 3rd */
+.left-sidebar {
+    width: 20%;
+    height: auto;
+    min-height: 100%; 
+    float: left;
+    border: 1px solid activecaption;
+    position: static;
+    margin: 0px;
+}
+.web-content {
+    width: 80%;
+    height: auto;
+    min-height: 100%; 
+    float: right;
+    border: 1px solid activecaption;
+    position: static;
+    margin-left: -4px;
+}
+#btnInfo {
+    height: 30px;
+    width: 70px;
+    margin-top: 10px;
+}
+.p-holder {
+    margin: -20px 50px auto 50px;;
+    width: auto;
+    min-width: 150px;
+    position: absolute;
+}

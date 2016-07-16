@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Day1-HTML</title>
+        <style>a
+            body {
+                background-image: url("image/bg-image.jpg");
+            }
+            p{
+                text-align: justify;
+                margin: 30px;
+            }
+            h1 {
+                margin-left: 30px;
+            }
+            a {
+                display: block;
+                margin-left: 5px;
+                color: black;
+            }
+            .header {
+                background-color: whitesmoke;
+                padding: 1px;
+                color: blue;
+                text-align: left;
+            }
+
+            .dropdown {
+                display: inline-block;
+                position: relative;
+                float: right;
+                padding: 5px;
+                margin-top: -60px;
+                margin-right: 20px;
+            }
+            .btnDropdown {
+                position: relative;
+                min-width: 100px;
+            }
+            .dropdown-list {
+                display: none;
+                position: absolute;
+                min-width: 100px;
+                background-color: lightgray;
+            }
+            .dropdown:hover .dropdown-list{
+                display: inline;
+            }
+            .dropdown-list a:hover {
+                background-color: blue;
+                color: white;
+            }
+        </style>    
+    </head>
+    <body>
+        <header class="header"><h1>Day1-HTML</h1>
+            <div class="dropdown">    
+                <button class="btnDropdown">Dropdown list</button>
+                <div class="dropdown-list">
+                    <a>List 1</a>
+                    <a>List 2</a>
+                    <a>List 3</a>
+                    <a>List 4</a>
+                    <a>List 5</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        
+    </body>
+    
+</html>
