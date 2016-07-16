@@ -1,7 +1,7 @@
 
 note:
 
-1. I create the MVC format code, this is not a really popular PHP framework, I just wanted to adapt the flow of MVC because it easy to maintain the code.
+1. I created the MVC format code, this is not a really popular PHP framework, I just wanted to adapt the flow of MVC because it easy to maintain the code.
 
   a. as you can find out the folder models, views and controllers
 	models = all the data processing it doing here
