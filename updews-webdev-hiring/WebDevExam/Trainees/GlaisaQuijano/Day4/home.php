@@ -1,22 +1,22 @@
-
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="css4.css">
+        <link rel="stylesheet" type="text/css" href="css/css4.css">
+        <script src="js/jquery-3.0.0.min.js" type="text/javascript"></script> 
     </head>
      
-    <body> 
+    <body>   
        
         <header><h1>Home<h1></header>
                     
         <div class="left-sidebar">
             <?php include ('navBar.php') ?>
         </div>    
-        
+         
                     
         <div class="web-content">
             <div id="qoute-wrapper">
-                    <p id="QouteId" name="qouteid">"Success is going from failure to failure without losing enthusiasm.",</p>
+                <p id="QouteId" name="qouteid">"Success is going from failure to failure without losing enthusiasm.",</p>
             </div> 
             
             <div class="btnCenter">
@@ -25,10 +25,7 @@
         </div>
          
 <!-- this is the function. when btn is click it will generate a random number-->                   
-        <script src="jquery-3.0.0.min.js" type="text/javascript"></script> 
-        <script type="text/javascript">          
-
-
+<script>
         $(document).ready (function() {
             
             //array of qoutes
@@ -53,7 +50,6 @@
             
         });
  
-  
         </script>
     </body>
 </html>
