@@ -1,15 +1,12 @@
 <html>
     <head>
         <title>About</title>
-        <link rel="stylesheet" type="text/css" href="css4.css">
+        <link rel="stylesheet" type="text/css" href="css/css4.css">
     </head>
      
     <body> 
-        <header><h1>About section<h1></header>
-                    
-        <div class="left-sidebar">
-            <?php include ('navBar.php') ?> 
-        </div> 
+        <header><h1>WebDev Exam<h1></header>
+
         
         <div class="web-content">
             <div id="about-content">
@@ -20,8 +17,12 @@
                     <p>Having good interpersonal skill is one my strengths. I can work well with others and always open to various opinions and ideas. I have a strong keen on continues learning which I can use in my job. I am also a fast-learner person.</p>
                     <p>My weakness is having too much curiosity. I always wanted to learn or know something. I can't stop until I figure it out. I tend to forget the time, and sacrifices my sleep or my meals. As a result, I always have headaches and backpain. In able to cope with that, I set my alarm to remind myself.</p>
             </div> 
-        </div>            
-        
-             
+        </div>  
+                    
+                            
+        <div class="left-sidebar">
+            <?php include ('navBar.php') ?> 
+        </div> 
+                    
     </body>
 </html>
