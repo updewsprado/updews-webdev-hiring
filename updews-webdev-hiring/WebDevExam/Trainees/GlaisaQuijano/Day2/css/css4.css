@@ -1,0 +1,239 @@
+/* 
+    Document   : css4
+    Created on : Jul 15, 2016, 1:52:12 PM
+    Author     : Lenovo
+    Description:
+        For styling of my webdev examination
+*/
+header {
+     background-color: #0066cc;
+     position: relative;
+     height: 60px;
+     width: 100%;
+     color: whitesmoke;  
+}
+body {
+     background-image: url(bg-image.jpg);
+     background-size: 100%;
+     margin: 0px;
+     position: relative;
+}
+h1 { 
+      margin-left: 20px;           
+}
+h2 {
+    margin-left: 50px;
+}
+h4 {
+      margin-top: -13px;
+      margin-bottom: 50px;
+}             
+p {
+      margin-top: 20px;
+      text-align: justify;
+}
+a {            
+      display: block;
+      color: black;
+      text-decoration: none;
+}
+table {
+    background-color: appworkspace;
+    width: 70%;
+    margin: 10px auto;
+    border: 5px solid #6699ff; 
+    overflow-y: scroll;
+}
+table tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+thead {
+    background-color:  #6699ff;
+    color: whitesmoke;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid whitesmoke;
+    margin: auto;
+}
+td {
+    border: 1px solid whitesmoke;
+    width: 150px;
+}
+.content-holder {
+       padding: 30px;
+}  
+.web-content {
+       width: 80%;
+       height: auto;
+       min-height: 100%; 
+       border: 1px solid activecaption;
+       position: relative;
+       float: right;
+                
+}
+.left-sidebar {
+    width: 20%;
+    min-height: 100%; 
+    float: left;
+    background-color:  #6699ff;
+    position: absolute;
+    margin: -1px;
+}
+#about-content {
+    min-height: 100%;
+    width: auto;
+    margin: auto;
+}
+#btnQoute {
+width: 20%;
+min-width: 150px;
+height: 50px;
+margin: auto;
+}
+             #qoute-wrapper {
+                 width: 60%;
+                 height: 200px;
+                 margin: auto;
+             }
+             #qoute-wrapper p {
+                 text-align: justify;
+                 font-size: 30px;
+                 padding: auto 10px 0px 10px;
+             }
+             .btnCenter {
+                 text-align: center;
+             }
+             .dropdown {
+                position: relative;
+                padding: 5px;
+                margin-top: 5%;
+                margin-left: auto;  
+            }
+            .dropdown  a{
+                border: 1px grey solid;  
+                height: 30px;
+            }
+            .dropdown  a:hover{
+                border: 1px grey solid;  
+                height: 30px;
+                background-color: #0066cc;
+                color: whitesmoke;
+            }    
+            .btnDropdown {
+                width: 15%;
+                min-width: 35px;
+                height: 30px;
+                margin-left: 10%;
+                background-color: #0066cc;
+                color: whitesmoke;
+            }
+            .dropdown-list {
+                display: none;
+                position: absolute;
+                min-width: 100px;
+                background-color: lightgray;
+                margin-left: 10%;
+            }
+            .dropdown:hover .dropdown-list{
+                display: block; 
+            }
+            .icon {
+                width: 80%;
+                height: 3px;  
+                margin: 10% 8%;
+                background-color: whitesmoke;
+            }
+            
+            #about-content .btnDropdown {
+                width: 5%;
+                min-width: 35px;
+                height: 30px;
+                float: right;
+                background-color: #0066cc;
+                color: whitesmoke;
+                margin-top: -150px;
+            }
+
+            #about-content .dropdown {
+                position: relative;
+                float: right;  
+            }
+            #about-content .dropdown-list {
+                position: absolute;
+                min-width: 100px;
+                background-color: lightgray;
+                margin-top: -120px;
+                margin-left: 0px;
+            }
+            #node {
+                float: right;
+                width: 20px;
+                border: none;
+                background-color:#6699ff; 
+                margin-top: -10px;
+            }
+ /*this is the setting for form */             
+.frmUserinfo { 
+    text-align: left;
+    position: relative;
+    margin-top: 50px;
+    padding-left: 50px;
+    
+}
+.frmUserinfo label {
+    min-width: 150px;
+    display: inline-block;
+}  
+#btnInfo {
+    width: 15%;
+    min-width: 60px;
+    height: 35px;
+    color: whitesmoke;
+    border-radius: 5%;
+    background-color:  #0066cc; 
+} 
+/* google map holder */       
+ #googleMap {
+    width: 50%;
+    min-width: 300px;
+    height: 400px;
+    position: static;
+    margin:60px auto auto auto;
+    border: 5px solid gray;
+}         
+ /*change the properties on screen width*/    
+@media screen and (max-width:480px){
+#about-content {
+margin: 2px;   
+}
+#qoute-wrapper p {
+font-size: 20px;
+margin: 0px;
+}
+#qoute-wrapper {
+ margin: 10% auto;
+width: 80%;
+}
+
+             }
+             
+#graph-linear {
+     background-color: white; 
+     margin: 30px 50px; 
+     width: 30%;
+                 
+}   
+#graph-sinusoid {
+    background-color: white; 
+    float: right;
+    margin:-369px 50px;
+    max-width: 40%;    
+}
+
+root { 
+    display: block;
+}
+
