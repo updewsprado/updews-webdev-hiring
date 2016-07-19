@@ -1,18 +1,19 @@
 <html>
     <head>
         <title>Find Us</title>
-        <link rel="stylesheet" type="text/css" href="css4.css">
+        <link rel="stylesheet" type="text/css" href="css/css4.css">
     </head>
      
     <body> 
         
-        <header><h1>Find Us<h1></header>
+        <header><h1>WebDev Exam<h1></header>
                     
         <div class="left-sidebar">
             <?php include ('navBar.php') ?>
         </div> 
         
         <div class="web-content">
+          
             <div id="googleMap"></div>
         </div>
             
