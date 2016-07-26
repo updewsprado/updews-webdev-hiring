@@ -27,7 +27,6 @@ h2 {
 h4 {
       margin-top: -13px;
       margin-bottom: 50px;
-      margin-left: 50px;
 }             
 p {
       margin-top: 20px;
@@ -87,12 +86,6 @@ td {
     min-height: 100%;
     width: auto;
     margin: auto;
-    padding: 20px;
-}
-
-#about-content p{
-    
-    margin-left: 50px;
 }
 #btnQoute {
 width: 20%;
@@ -161,8 +154,7 @@ margin: auto;
                 float: right;
                 background-color: #0066cc;
                 color: whitesmoke;
-                margin-top: -180px;
-                margin-right: 20px;
+                margin-top: -150px;
             }
 
             #about-content .dropdown {
@@ -173,8 +165,8 @@ margin: auto;
                 position: absolute;
                 min-width: 100px;
                 background-color: lightgray;
-                margin-top: -151px;
-                margin-left: -60px;
+                margin-top: -120px;
+                margin-left: 0px;
             }
             #node {
                 float: right;

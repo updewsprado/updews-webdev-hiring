@@ -27,7 +27,6 @@ h2 {
 h4 {
       margin-top: -13px;
       margin-bottom: 50px;
-      margin-left: 50px;
 }             
 p {
       margin-top: 20px;
@@ -87,12 +86,6 @@ td {
     min-height: 100%;
     width: auto;
     margin: auto;
-    padding: 20px;
-}
-
-#about-content p{
-    
-    margin-left: 50px;
 }
 #btnQoute {
 width: 20%;
