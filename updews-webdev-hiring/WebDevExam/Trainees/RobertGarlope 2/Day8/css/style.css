@@ -1,0 +1,63 @@
+*{margin:0;padding:0}
+a{outline: 0 !important;}
+html,body {height: 100%;color:#000;font: 16px;font-family:Arial, Helvetica, sans-serif;}
+input, button, select, textarea{font-family:Arial, Helvetica, sans-serif;font-size:16px}
+
+/*reusable css*/
+.clear{clear:both;}
+.txt-center{text-align:center}
+.txt-left{text-align:left}
+.txt-right{text-align:right}
+.border-red{border:1px solid red;}
+.bold{font-weight:bold}
+.overflow-x{overflow-x:auto;overflow-y:hidden}
+.overflow-y{overflow-y:auto;overflow-x:hidden}
+.red-border{border:1px red solid}
+.txt-red{color:red}
+.fl{float:left}
+.fr{float:right}
+.hidden{display:none}
+/*end reusable*/
+
+/* Programmer: Robert Garlope */
+body{background: url(../img/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.overlay {position:fixed;padding:0;margin:0;top:0;width: 100% !important;height:100% !important;filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity: 0.9;opacity: 0.9;z-index: 900;background: url("../img/loader.gif");background-position:center; background-repeat:no-repeat;background-size: auto;}
+.wrap{max-width:1200px;margin: 0 auto;}
+.navbar-default .navbar-nav > li > a {color:#000;font-size:16px}
+.navbar-collapse{padding:0 !important}
+#header-wrap .header{height: 150px;background-color:#bfbfbf}
+#header-wrap .header p{position:relative;top:60px;font-weight:bold;font-size: 20px;max-width:300px;padding-left:30px}
+.content-wrap {overflow: hidden;padding:0;margin:0;padding:10px}
+.content-wrap .main-content {float: right;width: 80%;height: auto;padding:10px}
+.content-wrap .sidebar {float: left;height: auto;width:20%;padding:10px}
+.content-wrap{min-height:200px;}
+p{font-size:16px}
+.container{width: 100% !important;}
+#about .p-title{font-size:18px}
+#findus #map { height: 400px;width: 600px;margin:0 auto;}
+@media screen and (max-width: 700px) {
+	.content-wrap .main-content {float: none;width: 100%;padding:10px}
+	.content-wrap .sidebar {float: none;height: auto;width:100%;}
+	.right-side{margin:0 auto}
+	.box{max-width:100%;}
+}
+
+/* Extra small devices (phones, up to 500px) */
+@media screen and (max-width: 500px) {
+	#header-wrap .header p{font-size: 16px;}
+}
+@media screen and (max-width: 768px) {
+	body{font-size:10px}
+	h1{font-size:18px}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	body{font-size:12px}
+	h1{font-size:20px}
+	.container{width: 100% !important;}
+}
+/* large desktops and 900px up ----------- */
+@media screen and (min-width: 900px) {
+	h1{font-size:20px}
+}
+/* end of code */
