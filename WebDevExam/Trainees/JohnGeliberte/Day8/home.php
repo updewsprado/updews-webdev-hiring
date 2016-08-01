@@ -7,6 +7,7 @@
 	<script src="assets/js/dygraph.js"></script>
 	<script src="assets/js/datatable.js"></script>
 	<script src="assets/js/jquery_datatable.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined.js" type="text/javascript"></script>>
 	<link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet">
 	
 </head>
@@ -42,6 +43,17 @@
 				</tr>
 			</tfoot>
 		</table>
+		<h2>Dygraph</h2>
+		<select>
+			<option value="volvo">1</option>
+			<option value="saab">2</option>
+			<option value="mercedes">3</option>
+			<option value="audi">4</option>
+		</select>
+		<div id="graphdiv"></div>
+		<script type="text/javascript">
+			g = new Dygraph(document.getElementById("graphdiv"),"gamb.csv");
+		</script>
 	</div>
 </body>
 </html>
