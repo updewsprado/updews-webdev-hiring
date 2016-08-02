@@ -48,9 +48,6 @@
 		<select id="node_selection" onchange="nodeSelect()">
 		</select>
 		<div id="graphdiv"></div>
-		<script type="text/javascript">
-			g = new Dygraph(document.getElementById("graphdiv"),"test.csv");
-		</script>
 	</div>
 </body>
 </html>

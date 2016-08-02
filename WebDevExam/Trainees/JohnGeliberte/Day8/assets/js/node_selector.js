@@ -12,7 +12,7 @@
  			}
  		});
  		for (var x=0;x < nodes.length;x++){
- 			$select.append('<option id="nodeId" values="'+nodes[x]+'">' + nodes[x] + ' </option>');
+ 			$select.append('<option id="nodeId" value="'+nodes[x]+'">' + nodes[x] + ' </option>');
  		}
  	});
  });
@@ -25,11 +25,13 @@
  }
 
  function nodeSelect() {
- 	var x = document.getElementById("nodeId").value;
+ 	var x = document.getElementById("node_selection").value;
  	$.getJSON('dbjson.json', function(data) {
+ 		var array = [];
  		var node_selected = [];
  		$.each(data, function(key, val){
  			if (val.node === x) {
+ 				node_selected = [];
  				node_selected.push(val.idaccel);
  				node_selected.push(val.time_stamp);
  				node_selected.push(val.node);
@@ -38,7 +40,15 @@
  				node_selected.push(val.xval);
  				node_selected.push(val.mval);
  				node_selected.push(val.purged);
+ 				array.push(node_selected);
  			}
+
  		});
+
+ 		var p = 0;
+ 		new Dygraph(document.getElementById("graphdiv"),array,
+              {
+                labels: [ "id", "time_stamp", "node" , "xval", "yval", "zval","mval" , "purged"]
+              });
  	}); 
  }
